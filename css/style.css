@@ -55,7 +55,7 @@ body {
 	display:none;
 	font-family: "Open Sans",Arial, Helvetica, sans-serif;
 	font-size: 13px;
-	font-weight:500;
+	font-weight:normal;
 	color: #ddd;
 	line-height: 1.8em;
 	padding: 0;
@@ -69,7 +69,15 @@ body.de_light{
 #wrapper{
 overflow:hidden;
 }
-
+.opacity-black {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+	background-color:#000;
+}
 .de-navbar-left #wrapper{
 overflow:visible;
 }
@@ -189,6 +197,14 @@ overflow:visible;
 	-o-transition: all 0.3s;
 	transition: all 0.3s; 
 	}
+	header.clone.smaller .logo {
+    height: 70px;
+    -webkit-transition: height 0.4s;
+    -moz-transition: height 0.4s;
+    -ms-transition: height 0.4s;
+    -o-transition: height 0.4s;
+    transition: height 0.4s;
+}
 	header nav a:hover {
 	color: #555; 
 	}
@@ -3171,7 +3187,7 @@ border:solid 1px #ddd;
 	.de_testi blockquote, .de_testi blockquote p {
 	font-size:16px;
 	line-height: 1.6em;
-	font-weight: 500;
+	font-weight: normal;
 	}
 	
 	.de_testi_by {
@@ -5657,3 +5673,10 @@ display:table;
 		display:none;
 	}
 	}
+hr.thin-border {
+    border-top: solid 2px #8bad01;
+    width: 10%;
+    margin: 10px 0;
+}
+.fw-n{font-weight:normal}
+.fw-9{font-weight:900}
