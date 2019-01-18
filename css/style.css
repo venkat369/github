@@ -2695,7 +2695,7 @@ border:solid 1px #ddd;
 	padding:30px 0 30px 0;
 	border-radius:120px;
 	color:#222;
-	font-family:"Dosis";
+	font-family: 'Dosis', sans-serif;
 	font-size:16px;
 	-moz-border-radius:120px;
 	-webkit-border-radius:120px;
