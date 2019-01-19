@@ -78,6 +78,16 @@ overflow:hidden;
     left: 0;
 	background-color:#000;
 }
+.opacity-green{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+	background-color:#8BAD01;
+}
+.position-realtive{position:relative}
 .de-navbar-left #wrapper{
 overflow:visible;
 }
@@ -381,10 +391,11 @@ overflow:visible;
 /* navigation */
 /* ================================================== */
 	#mainmenu {
-	font-family:"Raleway", Arial, Helvetica, sans-serif;
+	/* font-family:"Raleway", Arial, Helvetica, sans-serif; */
+	    font-family: 'Dosis', sans-serif;
 	float: right;
 	font-size:11px;
-	font-weight:400;
+	font-weight:normal;
 	letter-spacing:3px;
 	text-transform:uppercase;
 	}	
@@ -3187,7 +3198,7 @@ border:solid 1px #ddd;
 	.de_testi blockquote, .de_testi blockquote p {
 	font-size:16px;
 	line-height: 1.6em;
-	font-weight: normal;
+	font-weight: 100;
 	}
 	
 	.de_testi_by {
@@ -5680,3 +5691,17 @@ hr.thin-border {
 }
 .fw-n{font-weight:normal}
 .fw-9{font-weight:900}
+.tiny-border {
+    width: 100%;
+    height: 1px;
+    /* background: #333; */
+    background: rgba(255,255,255,.2);
+    margin: 20px 0 20px 0;
+    display: block;
+}
+.tiny-border span {
+    display: block;
+    height: 1px;
+    width: 30px;
+    background-color: #8BAD01;
+}
